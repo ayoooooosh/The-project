@@ -1,0 +1,158 @@
+!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Aya shehata project 1 in css</title>
+    <link rel="stylesheet" href="style3.css"/>
+    <style>
+       ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+            background-color:olive;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+          }   
+       li {
+           color:black;
+           font-weight:20px;
+
+          }
+        .li1 {
+              float: right; 
+              padding: 5px;
+              margin: 10px;
+             } 
+        .li2 {
+             background-color:maroon;
+             position: fixed;
+             color:mintcream;
+             padding:10px;
+             margin: 10px;
+             }
+        .li1:hover {
+            background-color: darkseagreen;
+            transition: 1s;
+
+            
+               } 
+        h1 {
+            margin:50px 0px;
+            direction: rtl;
+            color:gold; 
+        }
+        h1:hover {
+            background-color: gray;
+
+            padding:20px;
+            transition: all 1s;
+        } 
+        img:hover {
+            border: 2px solid rgb(22, 211, 63);
+            transition:all 2s;
+        }
+        .div3 { 
+
+            display:inline-block;
+            margin:65px;
+
+        }  
+        .div3:hover {
+            height: 50px;
+            transition: 2s;
+        }
+        p {
+            text-align:center;
+            font-weight: bold;
+        }  
+        .div1 {
+            display: block; 
+            font-size: 20px; 
+            background-color: palegoldenrod;
+            padding:30px;
+            margin: 20px; 
+            direction: rtl;
+        }
+        .label1 {
+            font-weight:bold ;
+            color:maroon;
+            background: paleturquoise;
+            padding: 15px;
+            margin:10px;
+        }
+        .label1:hover {
+            background-color:rosybrown;
+            transition: background-color 3s;
+        } 
+        .div2 {
+            float: right;
+            margin: 20px 0px;
+              }
+        .label2 {
+            font-weight:bold ;
+            color:maroon;
+        }
+
+
+   </style>
+ </head>
+ <body>
+     <ul>
+         <li class="li2">Home</li>
+         <li class="li1">شراء</li>
+         <li class="li1">الانواع</li>
+         <li class="li1">الصور</li>
+     </ul>
+     <h1>لشراء احدث الموبيلات </h1>
+     <div class="div3"><img src="phone/images (29).jpeg">
+        <p>type:htc</p>
+        <p>RAM:3Gb</p>
+        <p>Batter:3000mA</p>
+        <p> price:2000LE</p>
+    </div>
+     <div class="div3"><img src="phone/images (30).jpeg">
+        <p>type:iphon</p>
+        <p>RAM:10Gb</p>
+        <p>Batter:6000mA</p>
+        <p> price:12000LE</p>
+    </div>
+     <div class="div3"><img src="phone/images (31).jpeg">
+        <p>type:Rodmi</p>
+        <p>RAM:4Gb</p>
+        <p>Batter:3500mA</p>
+        <p> price:2800LE</p>
+    </div>
+     <div class="div3"><img src="phone/images (32).jpeg">
+        <p>type:Infinix</p>
+        <p>RAM:3Gb</p>
+        <p>Batter:3000mA</p>
+        <p> price:2500LE</p>
+    </div>
+     <div class="div3"><img src="phone/تنزيل (1).jpeg">
+        <p>type:sumsunG</p>
+        <p>RAM:4Gb</p>
+        <p>Batter:4000mA</p>
+        <p> price:3000LE</p>
+    </div>
+     <div class="div3"><img src="phone/تنزيل (2).jpeg">
+        <p>type:OPPO</p>
+        <p>RAM:5Gb</p>
+        <p>Batter:5000mA</p>
+        <p> price:4000LE</p>
+    </div> 
+    <div class="div1">  
+    <label class="label1">اختار الموبيل</label><br><br>
+        <input type="radio" name="phone">oppo <br>
+        <input type="radio" name="phone">iphon<br>
+        <input type="radio" name="phone">infinix<br>
+        <input type="radio" name="phone">htc<br>
+    </div>  
+    <div class="div2" >
+        <label class="label2">لمزيد من انوع الهواتف </label><br><br>
+        <input type="button" name="button" value="اضغط هنا "> <br>
+   </div> 
+ </body>
+ </html>

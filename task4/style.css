@@ -1,0 +1,88 @@
+a
+{
+    text-decoration: none;
+    color: white;
+
+
+}
+Q:hover 
+{
+    background-color: rgb(201, 15, 15);
+    padding: 10px;
+}
+
+.div1
+{
+    background-color: black;
+    padding: 20px;
+}
+.Y
+{
+    background-color: green;
+    padding: 15px;
+}
+.Q
+{
+    float: right;
+}
+
+.two
+{
+    background-color: white;
+    border:1px solid #f00;
+    width:220px;
+    min-height:200px;
+    padding: 6%; 
+    margin: 2%;
+    display:inline-block;
+    
+}
+.two:hover p ;.two:hover p ;.two:hover p
+{
+    visibility: visible;
+    visibility: hidden;
+}
+
+img
+{
+    width:220px;
+    height:220px
+}
+
+.S
+{
+    background-image: url('images/2002340.jpg');
+    margin: 40px 0px;
+    padding: 10%;
+}
+.T 
+{
+    background-color: darkseagreen ;background-repeat: repeat-x; background-attachment: fixed;
+    padding: 2%;
+    text-transform :uppercase;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+.L
+{
+    direction: rtl;
+    background-color: hsla(27, 89%, 55%, 0.829);
+    word-spacing: 5px;
+    padding: 10px;
+
+}
+span
+{
+    direction: rtl;
+}
+.M
+{
+    background-image: url(images/images\ \(3\).jpg); background-attachment:scroll;
+    padding: 5%;
+    margin: 70px ;
+}
+.V
+{
+    background-color: rgba(226, 21, 147, 0.384);
+    padding: 5px;
+}
