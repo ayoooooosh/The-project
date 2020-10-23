@@ -1,0 +1,145 @@
+
+        
+        body {
+            margin: 0;
+            padding: 0;
+			width:100%;
+        }
+		nav {
+				height:50px;
+		}
+			
+        nav ul {
+            list-style-type: none;
+            margin: 0px 0px;
+            padding: 1px;
+            background-color:black;
+            position: fixed;
+            top: 0; 
+            left: 0; 
+            right: 0;
+            color: blanchedalmond;
+
+            }
+            i {
+                background-color: white;
+                padding: 5px;
+            }
+        nav ul li { 
+            float: right;
+            margin: 10px; 
+			margin-top:20px;
+            }
+        .one {
+            float: left;
+            background-color: rgb(51, 51, 204);
+            padding: 20px;
+			height:30px;
+			margin:0px;
+			font-size:20px;
+            }
+			li a:hover
+			{
+				background:#00ccff;
+			}
+            
+            .div1 {
+                padding:20px;
+                width: 100px;                   
+                text-align: center;
+                position: fixed;
+                top:110px;
+                left:  px;
+                }
+                .div1 a {
+                        display: block ;
+                        margin: 3px;
+                        padding: 8px;
+                        text-decoration: none;
+                }
+				.a , .b ,.c
+				{
+					left:-120px;
+					width:130px;
+					text-align:center;
+					color:#fff;
+					border-radius:20px;
+					font-size:20px;
+					position:fixed;
+				}
+                .a {
+					top:120x;
+                    background-color: rgb(51, 51, 204);
+                }
+                .b {
+					top:172px;
+                    background-color: darkred;
+                }
+                .c {
+					top:213px;
+                    background-color: rgb(0, 179, 179);
+                }
+				.div1 a:hover
+				{
+					left:10px;
+					position:.2s
+				}
+                .div2 {
+                    background-image:url(../images/bg.jpg);
+                    height: 300px;
+                    padding: 20px;
+                    text-align: center;
+                    font-size:18px;
+					color:#fff;
+                }
+                .div3{
+                    background-color:rgba(51, 51, 204, .5);
+                    padding: 2px;
+                    margin: 20px;
+					margin-top:100px;
+                }
+            details p {
+                background-color:burlywood;
+                padding: 8px;
+                margin: 20px;
+            }
+            .div4 {
+                background-image:url(../images/death.png);
+                padding-top: 20px;
+                padding: 5px;
+				height:500px;
+            }
+            .input1 {
+                margin: 55px;
+				left:50px;
+                width: 1100px;
+                height: 40px;
+                background-color: rgba(204, 102, 0 , .5)
+;
+            }
+            .div5 {
+                margin-top: 30px;
+                padding: 5px;
+                color: rgb(17, 16, 16);
+                font-size: 18px;
+            }
+            .div6 {
+                background-color:rgba(0, 179, 179 , .5);
+                margin-left:50px;
+                padding: 20px;
+				width: 1080px;
+            }
+            .div7  p {
+                background:#000; 
+                margin-top:0px;
+				color:#fff;
+				font-size:30px;
+				padding:5px;
+				text-align: center;
+				height:40px;
+            }
+            
+        
+            
+
+                
