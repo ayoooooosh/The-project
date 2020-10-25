@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: rgb(240, 173, 173);
+
+}
+nav {
+        height:50px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 1px;
+    background-color:rgb(221, 207, 207);
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    color: blanchedalmond;
+
+    }
+    i {
+        background-color: white;
+        padding: 5px;
+    }
+nav ul li { 
+    float: right;
+    margin: 10px; 
+    margin-top:20px;
+    }
+.one {
+    float: left;
+    background-color: rgb(51, 51, 204);
+    padding: 20px;
+    height:30px;
+    margin:0px;
+    font-size:20px;
+    }
+    .tow {
+        float: left;
+        color: white;
+    }
+    a {
+    text-decoration: none;
+    }
+    li a:hover
+    {
+        background:#00ccff;
+    }
+    li .search {
+        color: #fff;
+    }
+    .div1 {
+        padding:20px;
+        width: 100px;                   
+        text-align: center;
+        position: fixed;
+        top:110px;
+        left:  px;
+        }
+        .div1 a {
+                display: block ;
+                margin: 3px;
+                padding: 8px;
+                text-decoration: none;
+        }
+        .a , .b ,.c
+        {
+            left:-120px;
+            width:130px;
+            text-align:center;
+            color:#fff;
+            border-radius:20px;
+            font-size:20px;
+            position:fixed;
+        }
+        .a {
+            top:120px;
+            background-color: rgb(51, 51, 204);
+        }
+        .b {
+            top:172px;
+            background-color: darkred;
+        }
+        .c {
+            top:213px;
+            background-color: rgb(0, 179, 179);
+        }
+        .div1 a:hover
+        {
+            left:10px;
+            transition:.2s;
+        }
+        .div2 {
+            background-image:url(../images/bg.jpg);
+            height: 300px;
+            padding: 20px;
+            text-align: center;
+            font-size:18px;
+            color:#fff;
+        }
+        audio {
+              width: 1000px;
+              margin-top:-1000px;
+              margin-left: 100px;
+        }
+video {
+    margin: 90px 300px 0px;
+    width: 600px;
+    height: 500px;
+}
+        .div3 {
+            margin: 150px 150px 0px;
+            background-color: wheat;
+            text-align: center;
+            padding: 10px;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom:0px ;
+        }
+        .input2 {
+            margin:0px 150px ;
+            border-radius:20px ;
+            width: 900px;
+            height: 30px;
+            background-color: coral;
+        }
+        .input3  {
+            border-radius: 20px;
+            width: 900px;
+            margin:0px 150px;
+            height: 30px;
+            background-color: wheat;
+            
+
+        }
+        .div4 {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .input4 {
+            border-radius: 20px;
+            width: 900px;
+            margin:0px 150px;
+            height: 30px;
+            margin-top: 20px;
+            background-color: wheat;
+        }
+        .div5 {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        .div6 {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        .input5 {
+            border-radius: 20px;
+            width: 900px;
+            margin:0px 150px;
+            height: 30px;
+            margin-top: 20px;
+            background-color: wheat;
+        }
+        .submit
+        {
+            text-align:center;
+            padding:20px;
+
+        }
+        .submit input[type="submit"]
+        {
+            margin:10px;
+            padding:5px;
+            background:coral;
+        }
+        
+
